@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "425781962761",
+    "project_id": "cafechief-e3a31",
+    "storage_bucket": "cafechief-e3a31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:425781962761:android:02b22ac17c4fd44d3870d8",
+        "android_client_info": {
+          "package_name": "com.example.cafechief"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "425781962761-bnncuggv11uqipb6nif1s3r51gi22qa9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk5WY5Vbj0TWeaKbeeimiO2zKaliXpz7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "425781962761-bnncuggv11uqipb6nif1s3r51gi22qa9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

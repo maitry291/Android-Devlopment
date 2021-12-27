@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WhatsApp clone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="chatting_app">Chatting App</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log out</string>
+    <string name="user_name">user name</string>
+    <string name="chat_msg">chat msg</string>
+    <string name="_10_00_am">10:00 am</string>
+    <string name="group_chat">Group Chat</string>
+</resources>

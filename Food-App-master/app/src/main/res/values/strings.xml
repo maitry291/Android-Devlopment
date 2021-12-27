@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="my_account">My Account</string>
+    <string name="favourites">Favourites</string>
+    <string name="categories">Categories</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+</resources>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+     <TextView
+         android:layout_weight="1"
+         android:layout_width="match_parent"
+         android:layout_height="158dp"
+         android:text="@string/heyaaa"
+         android:textSize="70sp"
+         android:textColor="@color/purple_700"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.567"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.478">
+
+     </TextView>
+
+     <Button
+         android:layout_weight="1"
+         android:id="@+id/button"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:onClick="showToast"
+         android:text="@string/tap"
+         android:textSize="18sp"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.661" />
+
+    <!--this text view using scroll view prints so many text
+     out of screen bound that we can see by scrolling-->
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_worldhello_world"
+            android:textSize="70sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0">
+
+        </TextView>-->
+
+
+    <!-- <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical" >
+        <TextView
+            android:layout_weight="1"
+            android:background="@color/purple_200"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:gravity="center"
+         android:text="@string/hello_world"
+         android:textSize="38sp" />
+         <TextView
+             android:layout_weight="1"
+             android:background="@color/purple_500"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:gravity="center"
+             android:text="@string/hello_world"
+             android:textSize="38sp" />
+         <TextView
+             android:layout_weight="1"
+             android:background="@color/purple_200"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:gravity="center"
+             android:text="@string/hello_world"
+             android:textSize="38sp" />
+         <TextView
+             android:layout_weight="1"
+             android:background="@color/purple_500"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:gravity="center"
+             android:text="@string/hello_world"
+             android:textSize="38sp" />
+         <TextView
+             android:layout_weight="1"
+             android:background="@color/purple_200"
+             android:layout_width="match_parent"
+             android:layout_height="0dp"
+             android:gravity="center"
+             android:text="@string/hello_world"
+             android:textSize="38sp" />
+
+        &lt;!&ndash;<TextView
+            android:layout_margin="30dp"
+            android:layout_weight="1"
+            android:background="@color/cardview_light_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/layouts"
+            android:textSize="32sp"
+            tools:ignore="NestedWeights" />&ndash;&gt;
+       &lt;!&ndash; <TextView
+            android:padding="10dp"
+            android:background="@color/teal_200"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/jeel"
+            android:textSize="32sp"
+            tools:ignore="NestedWeights" />
+        <TextView
+            android:layout_margin="10dp"
+            android:background="@color/purple_700"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/Maitry"
+            android:textSize="32sp"
+            tools:ignore="NestedWeights" />&ndash;&gt;
+    </LinearLayout> -->
+
+    <!--this block overlaps 50% of two image, we are able to do this using android:margin
+     we can use android:layout_gravity to change image positions-->
+     <!--<FrameLayout
+
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content">
+         <ImageView
+             android:src="@drawable/ic_android_black_24dp"
+             android:layout_width="wrap_content"
+             android:layout_marginStart="100dp"
+             android:layout_height="wrap_content" >
+
+         </ImageView>
+         <ImageView
+             android:src="@drawable/ic_android_black_24dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+         </ImageView>
+
+     </FrameLayout>-->
+
+   <!-- <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_alignStart="@id/view2"
+            android:layout_centerInParent="true"
+            android:text="@string/hello_world"
+            android:textSize="48sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:id="@+id/view2"
+            android:gravity="center_horizontal"
+            android:text="@string/hello_world"
+            android:textSize="48sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/view3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:text="@string/hello_world"
+            android:textSize="48sp">
+
+        </TextView>
+
+    </RelativeLayout>  -->
+
+
+</LinearLayout>

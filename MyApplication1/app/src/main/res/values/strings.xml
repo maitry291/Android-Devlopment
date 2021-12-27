@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyApplication1</string>
+    <string name="tap">tap</string>
+    <string name="greetings_from_maitry">Greetings from maitry</string>
+    <string name="add">add</string>
+    <string name="calculate_sum">Calculate Sum</string>
+    <string name="calculator">CALCULATOR</string>
+</resources>

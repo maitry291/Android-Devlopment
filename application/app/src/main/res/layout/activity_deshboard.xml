@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".deshboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="417dp"
+            android:layout_height="209dp"
+            android:background="@color/brown"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:logo="@drawable/ic_cup"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"
+            tools:layout_editor_absoluteY="-3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+
+                android:layout_marginStart="-400dp"
+                android:layout_marginLeft="-400dp"
+                android:layout_marginTop="150dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:text="Hello,Manager"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="391dp"
+            android:layout_height="146dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/card"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="233dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="25dp"
+                android:text="Pizza"
+                android:textColor="@color/brown"
+                android:textSize="40sp" />
+
+            <Button
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="-9dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:insetTop="6dp"
+                android:insetBottom="6dp"
+                android:padding="20dp"
+                android:text="Select"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="245dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="-20dp"
+                android:src="@drawable/pizza" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="389dp"
+            android:layout_height="153dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/card"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="88dp"
+            tools:layout_editor_absoluteY="172dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="25dp"
+                android:text="Burger"
+                android:textColor="@color/brown"
+                android:textSize="40sp" />
+
+            <Button
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="-9dp"
+                android:fontFamily="@font/berkshire_swash"
+                android:insetTop="6dp"
+                android:insetBottom="6dp"
+                android:padding="20dp"
+                android:text="Select"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="245dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="-20dp"
+                android:src="@drawable/burgers" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="391dp"
+            android:layout_height="146dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/card"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="233dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="25dp"
+                android:text=" Fries"
+                android:textColor="@color/brown"
+                android:textSize="40sp" />
+
+            <Button
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="-9dp"
+
+                android:fontFamily="@font/berkshire_swash"
+                android:insetTop="6dp"
+                android:insetBottom="6dp"
+                android:padding="20dp"
+                android:text="Select"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="245dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="-20dp"
+                android:src="@drawable/fries" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout3"
+            android:layout_width="391dp"
+            android:layout_height="146dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/card"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="233dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="25dp"
+                android:text="coffee"
+                android:textColor="@color/brown"
+                android:textSize="40sp" />
+
+            <Button
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="-9dp"
+
+                android:fontFamily="@font/berkshire_swash"
+                android:insetTop="6dp"
+                android:insetBottom="6dp"
+                android:padding="20dp"
+                android:text="Select"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="245dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="-20dp"
+                android:src="@drawable/coffe" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="391dp"
+            android:layout_height="146dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/card"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="233dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="25dp"
+                android:text="Cold Drinks"
+                android:textColor="@color/brown"
+                android:textSize="30sp" />
+
+            <Button
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="-9dp"
+
+                android:fontFamily="@font/berkshire_swash"
+                android:insetTop="6dp"
+                android:insetBottom="6dp"
+                android:padding="20dp"
+                android:text="Select"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="245dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="-20dp"
+                android:src="@drawable/colddrink" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout5"
+            android:layout_width="391dp"
+            android:layout_height="146dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/card"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="233dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/baloo"
+                android:padding="25dp"
+                android:text="Ice Cream"
+                android:textColor="@color/brown"
+                android:textSize="30sp" />
+
+            <Button
+                style="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="-9dp"
+
+                android:fontFamily="@font/berkshire_swash"
+                android:insetTop="6dp"
+                android:insetBottom="6dp"
+                android:padding="20dp"
+                android:text="Select"
+                android:textColor="@color/brown"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="245dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="200dp"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="-20dp"
+                android:src="@drawable/icecream" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/berkshire_swash"
+            android:gravity="center"
+            android:text="Next"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:backgroundTint="@color/brown" />
+
+    </LinearLayout>
+
+
+</ScrollView>
