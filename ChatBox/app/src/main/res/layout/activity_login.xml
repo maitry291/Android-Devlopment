@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060321"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="240dp"
+                android:layout_height="68dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="150dp"
+                android:foregroundGravity="center"
+                app:srcCompat="@drawable/app_title_logo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:gravity="center|center_vertical"
+                android:text="@string/login_to_chats"
+                android:textColor="#EBF0FF"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/login_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/edt_background"
+                android:ems="10"
+                android:hint=" E-mail"
+                android:inputType="textPersonName"
+                android:selectAllOnFocus="true"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="#7E7E7E"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <EditText
+                android:id="@+id/login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/edt_background"
+                android:ems="10"
+                android:hint=" Password"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textColorHint="#7E7E7E"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/sent_bg"
+                android:text="Login"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <TextView
+                android:id="@+id/login_to_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/amiko"
+                android:gravity="center"
+                android:text="Don't have an account? Create one"
+                android:textColor="#5796FF"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/alegreya_sans_sc"
+                android:gravity="center"
+                android:text="- or continue with -"
+                android:textColor="#EBF0FF"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/login_google"
+                    android:layout_width="match_parent"
+                    android:layout_height="46dp"
+                    android:drawableLeft="@drawable/google_logo"
+                    android:gravity="center_vertical"
+                    android:text="  Google"
+                    android:textColor="#EBF0FF" />
+
+                <TextView
+                    android:id="@+id/login_facebook"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/fb_logo"
+                    android:gravity="center_vertical"
+                    android:text="  Facebook"
+                    android:textColor="#EBF0FF" />
+
+                <TextView
+                    android:id="@+id/login_phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@drawable/phone"
+                    android:gravity="center_vertical"
+                    android:text="  Phone"
+                    android:textColor="#EBF0FF" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

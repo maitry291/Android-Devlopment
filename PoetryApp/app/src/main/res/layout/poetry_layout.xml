@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFB241"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/poet_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/denk_one"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:minHeight="30dp"
+        android:text="- By Mirza Galib"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/poetry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:fontFamily="@font/arima_madurai_medium"
+        android:minHeight="60dp"
+        android:textStyle="bold"
+        android:text="To be or not to be: that is the question"
+        android:textSize="20sp" />
+    <TextView
+        android:minHeight="20dp"
+        android:layout_margin="5dp"
+        android:id="@+id/poetry_time"
+        android:gravity="right"
+        android:text="10-10-2021"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/update"
+            android:text="Update"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/delte"
+            android:text="Delete"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</LinearLayout>

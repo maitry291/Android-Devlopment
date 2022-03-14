@@ -1,0 +1,390 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_alegreya_sans_sc.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\alegreya_sans_sc.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_left_arrow.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\left_arrow.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_personal_info.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\personal_info.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_setting.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\setting.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_app_title_logo.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\app_title_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_loading.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\loading.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_microphone.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\microphone.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_verify_green.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\verify_green.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_chat.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_video_call.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\video_call.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_amiko.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\amiko.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_content_main.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_autour_one.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\autour_one.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_menu.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\menu.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_chatbar_bg.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\chatbar_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_profile_photo.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_profile_photo.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_assistant_light.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\assistant_light.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_alegreya_sans_light.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\alegreya_sans_light.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_female_selected.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\user_female_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_gradient.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\gradient.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_sample_users.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\sample_users.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_abel.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\abel.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_sent_bg.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\sent_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_gallery.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\gallery.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_app_logo.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\app_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_calls.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\calls.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_actionbar_bg.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\actionbar_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_received_bg.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\received_bg.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_female.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\user_female.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_chatbox.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\chatbox.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_basic.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\basic.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_chats.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\fragment_chats.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_sample_sent.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\sample_sent.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_phone.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\phone.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\xml_provider_paths.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_nav_header_main.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\menu_activity_main_drawer.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_male_selected.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\user_male_selected.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_voice_call.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\voice_call.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_next.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\next.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_otp_btn_layout.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\otp_btn_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_bottom_sheet_layout.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\bottom_sheet_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_app_bar_main.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_click.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\click.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_attachment.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\attachment.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_amaranth.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\amaranth.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_cardview_layout.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\cardview_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_edit.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\edit.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_fb_logo.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\fb_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_logout.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\logout.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_messenger.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\messenger.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_user_male.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\user_male.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_calls.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\fragment_calls.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_edt_background.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\edt_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_send.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\send.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_verify_white.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\verify_white.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_amaranth_bold.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\amaranth_bold.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_google_logo.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\google_logo.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_sample_received.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\sample_received.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_otp_layout.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\otp_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_alegreya_sans_thin.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\alegreya_sans_thin.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_sign_up2.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_sign_up2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_settings.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_alegreya_sans_sc_thin.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\alegreya_sans_sc_thin.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_remove.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\remove.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_qrcode.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\qrcode.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-ldpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_chat.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\chat.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_aldrich.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\aldrich.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_hind_light.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\hind_light.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_camera.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\camera.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\font_hind_vadodara.ttf.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\font\\hind_vadodara.ttf"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\merged_res\\debug\\drawable_basic_user.png.flat",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\drawable\\basic_user.png"
+    }
+]

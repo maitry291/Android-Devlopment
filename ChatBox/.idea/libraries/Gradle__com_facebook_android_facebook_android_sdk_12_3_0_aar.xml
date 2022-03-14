@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.android:facebook-android-sdk:12.3.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/ed1376bb4ae81b3703de09bef4a4e018/transformed/jetified-facebook-android-sdk-12.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/45008008f5247c3b4c95a9d1017aadcb/transformed/jetified-facebook-android-sdk-12.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/22f61544fbe88c43ef7220df7389a65d/transformed/jetified-facebook-android-sdk-12.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c00de8789db689b728a270129fa66869/transformed/jetified-facebook-android-sdk-12.3.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cd51fd438c8cbdb9a7a7f009689c20f8/transformed/jetified-facebook-android-sdk-12.3.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/c00de8789db689b728a270129fa66869/transformed/jetified-facebook-android-sdk-12.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c00de8789db689b728a270129fa66869/transformed/jetified-facebook-android-sdk-12.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/12.3.0/298ab6360ab0a2f61d1f1e04d43f32100e02a529/facebook-android-sdk-12.3.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-android-sdk/12.3.0/ce3f5da8fe56ad59cb4903ee815ca2f4017ddde6/facebook-android-sdk-12.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

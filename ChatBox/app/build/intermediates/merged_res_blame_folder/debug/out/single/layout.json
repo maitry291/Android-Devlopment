@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\app_bar_main.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_login.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up2.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_sign_up2.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\bottom_sheet_layout.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\bottom_sheet_layout.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_calls.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\fragment_calls.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sample_users.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\sample_users.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\nav_header_main.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\nav_header_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_chats.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\fragment_chats.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_main.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_chat.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_sign_up.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_settings.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_profile_photo.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\activity_profile_photo.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sample_sent.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\sample_sent.xml"
+    },
+    {
+        "merged": "D:\\AndroidProjects\\ChatBox\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\sample_received.xml",
+        "source": "D:\\AndroidProjects\\ChatBox\\app\\src\\main\\res\\layout\\sample_received.xml"
+    }
+]

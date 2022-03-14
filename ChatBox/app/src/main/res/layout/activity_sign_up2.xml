@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignUp2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#060321">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="180dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="240dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/app_title_logo" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/alegreya_sans_sc"
+                    android:gravity="center"
+                    android:text="Sign up to chats"
+                    android:textColor="#EBF0FF"
+                    android:textSize="28sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp">
+
+                        <com.hbb20.CountryCodePicker
+                            android:id="@+id/ccp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="5dp"
+                            android:layout_alignParentStart="true"
+                            app:ccpDialog_backgroundColor="@color/dark_blue"
+                            app:ccpDialog_fastScroller_bubbleColor="#32cdff"
+                            app:ccpDialog_fastScroller_bubbleTextAppearance="@color/dark_blue"
+                            app:ccpDialog_fastScroller_handleColor="#ECECEC"
+                            app:ccpDialog_searchEditTextTint="#ECECEC"
+                            app:ccpDialog_showTitle="false"
+                            app:ccpDialog_textColor="#EBF0FF"
+                            app:ccp_arrowColor="#EBF0FF"
+                            app:ccp_autoDetectCountry="true"
+                            app:ccp_contentColor="#EBF0FF"
+                            app:ccp_rememberLastSelection="true" />
+
+                        <EditText
+                            android:id="@+id/editTextPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:padding="5dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_toStartOf="@+id/btnVerify"
+                            android:layout_toEndOf="@+id/ccp"
+                            android:background="@drawable/edt_background"
+                            android:backgroundTint="#EBF0FF"
+                            android:ems="10"
+                            android:hint=" XXXXX XXXXX"
+                            android:inputType="phone"
+                            android:textColor="@color/black"
+                            android:textColorHint="#7E7E7E"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <ImageView
+                            android:id="@+id/btnVerify"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:layout_alignParentEnd="true"
+                            android:paddingTop="8dp"
+                            android:paddingRight="4dp"
+                            android:src="@drawable/verify_white" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/relativeLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        tools:visibility="gone">
+
+                        <EditText
+                            android:id="@+id/editTextOTP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="43dp"
+                            android:padding="5dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="114dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="1dp"
+                            android:background="@drawable/otp_layout"
+                            android:clickable="false"
+                            android:editable="true"
+                            android:ems="5"
+                            android:enabled="true"
+                            android:hint="  Enter OTP"
+                            android:inputType="number"
+                            android:textColorHint="@color/light_grey"
+                            android:visibility="visible"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:visibility="visible" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:id="@+id/btn_getOTP"
+                            android:layout_width="75dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="6dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="4dp"
+                            android:layout_toEndOf="@+id/editTextOTP"
+                            android:layout_toRightOf="@id/editTextOTP"
+                            android:background="#EAEAEA"
+                            android:tag="verifyOTP"
+                            android:text="Verify OTP"
+                            android:textAllCaps="false"
+                            android:textColor="@color/dark_blue"
+                            android:textStyle="bold"
+                            android:visibility="visible"
+                            tools:ignore="TouchTargetSizeCheck"
+                            tools:visibility="visible" />
+                    </RelativeLayout>
+
+                    <EditText
+                        android:id="@+id/signup2_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"
+                        android:padding="5dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/edt_background"
+                        android:backgroundTint="#EBF0FF"
+                        android:ems="10"
+                        android:hapticFeedbackEnabled="true"
+                        android:hint=" Name"
+                        android:inputType="textPersonName"
+                        android:textColor="@color/black"
+                        android:textColorHint="#7E7E7E"
+                        android:visibility="gone"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:visibility="gone" />
+
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnSignUp2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/sent_bg"
+                        android:text="@string/sign_up"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:visibility="gone"
+                        tools:ignore="TouchTargetSizeCheck"
+                        tools:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/signup2_to_signin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="@font/amiko"
+                        android:gravity="center"
+                        android:text="Already Have a Account? Sign In"
+                        android:textColor="#5796FF"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

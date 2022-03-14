@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#030213"
+    tools:context=".ui.settings.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/personal_info"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/cardview_layout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            app:srcCompat="@drawable/logout"
+            app:tint="@color/white_blue"
+            tools:srcCompat="@drawable/logout" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/alegreya_sans_light"
+            android:text="Sign Out"
+            android:textColor="@color/white_blue"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/personal_info"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/button"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/cardview_layout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:src="@drawable/personal_info"
+            app:tint="@color/white_blue" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/alegreya_sans_light"
+            android:text="Personal Info"
+            android:textColor="@color/white_blue"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_profile"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/basic_user" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/settings_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/sent_bg"
+        android:clickable="true"
+        android:textSize="16sp"
+        android:fontFamily="@font/basic"
+        android:linksClickable="true"
+        android:text="  Edit Profile  "
+        android:textAllCaps="false"
+        android:textColor="#060321"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</RelativeLayout>

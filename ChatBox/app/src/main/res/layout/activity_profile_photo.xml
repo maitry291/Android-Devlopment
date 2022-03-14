@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#060321"
+    android:orientation="vertical"
+    tools:context=".ProfilePhotoActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/alegreya_sans_sc"
+        android:text="@string/profile_picture"
+        android:textColor="#EBF0FF"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/preview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/basic_user">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/preview"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/user_male"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/user_male"
+            android:tag="maleLogo"/>
+
+        <ImageView
+            android:id="@+id/user_female"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="50dp"
+            android:src="@drawable/user_female"
+            android:tag="femaleLogo"/>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/preview"
+        android:layout_alignBottom="@+id/preview"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginBottom="21dp"
+        android:backgroundTint="#4DD3FF"
+        android:clickable="true"
+        android:focusable="true"
+        android:foregroundGravity="center"
+        android:src="@drawable/edit"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@+id/preview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/sent_bg"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:text="   Update Profile   "
+
+        android:textColor="#060321"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</RelativeLayout>

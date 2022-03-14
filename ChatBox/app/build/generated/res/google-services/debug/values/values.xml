@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">236475114574-bobtfe4t1a0u9a8n5pngg9am2446is6n.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">236475114574</string>
+    <string name="google_api_key" translatable="false">AIzaSyDdKP-2tkCuBN3u03sV_Q3GuVaOZz_jM9s</string>
+    <string name="google_app_id" translatable="false">1:236475114574:android:1da97624ec4a6baa034f1f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDdKP-2tkCuBN3u03sV_Q3GuVaOZz_jM9s</string>
+    <string name="google_storage_bucket" translatable="false">chatbox-aa12c.appspot.com</string>
+    <string name="project_id" translatable="false">chatbox-aa12c</string>
+</resources>
