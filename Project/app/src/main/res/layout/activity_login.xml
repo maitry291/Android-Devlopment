@@ -95,15 +95,24 @@
 
         <Button
             android:id="@+id/signIn"
-            android:layout_width="match_parent"
+            android:layout_width="240dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_margin="50dp"
+            android:layout_margin="30dp"
             android:textColor="@color/whitebg"
             android:background="@drawable/buttonbg"
             android:text="Sign In" />
 
     </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_signin"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
 
     <TextView
         android:layout_gravity="center"
@@ -116,7 +125,6 @@
 
     <LinearLayout
         android:id="@+id/google"
-        android:layout_margin="10dp"
         android:layout_gravity="center"
         android:orientation="horizontal"
         android:layout_width="wrap_content"

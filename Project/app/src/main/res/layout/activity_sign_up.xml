@@ -37,7 +37,7 @@
             android:layout_width="match_parent"
             android:layout_height="43dp"
             android:drawableStart="@drawable/user"
-            android:drawablePadding="20dp"
+            android:drawablePadding="15dp"
             android:drawableTint="@color/mainbg"
             android:layout_gravity="center"
             android:textSize="15sp"
@@ -112,10 +112,10 @@
 
         <Button
             android:id="@+id/btnsignup"
-            android:layout_width="match_parent"
+            android:layout_width="240dp"
             android:layout_height="40dp"
             android:layout_gravity="center"
-            android:layout_margin="40dp"
+            android:layout_margin="20dp"
             android:textColor="@color/whitebg"
             android:background="@drawable/buttonbg"
             android:text="Sign Up" />
@@ -131,8 +131,8 @@
 
         <LinearLayout
             android:id="@+id/google_signup"
-            android:layout_margin="10dp"
             android:layout_gravity="center"
+            android:layout_marginBottom="17dp"
             android:orientation="horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
@@ -152,7 +152,7 @@
         </LinearLayout>
 
         <ProgressBar
-            android:id="@+id/progress"
+            android:id="@+id/progress_signup"
             android:layout_margin="10dp"
             android:padding="5dp"
             android:visibility="invisible"

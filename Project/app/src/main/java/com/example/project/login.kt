@@ -8,6 +8,8 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.EditText
 import android.widget.Toast
+import androidx.core.view.isVisible
+import com.example.project.models.UserDetails
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -15,6 +17,8 @@ import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
+import com.google.firebase.database.ktx.database
+import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
@@ -25,6 +29,7 @@ class Login : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     private val RC_SIGN_IN = 1
     private lateinit var googleSignInClient: GoogleSignInClient
+    private val database= Firebase.database
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,34 +49,41 @@ class Login : AppCompatActivity() {
             val password= password.text.toString()
             if(email.isEmpty()){
                 emailid.setError("Please enter email ID")
-               // return@setOnClickListener
+                return@setOnClickListener
             }
             if(password.isEmpty()){
                 passwd.setError("Please enter password")
-                //return@setOnClickListener
+                return@setOnClickListener
             }
             else {
+                //progress bar visible
+                progress_signin.isVisible=true
                 auth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(this) { task ->
                         if (task.isSuccessful) {
+                            progress_signin.isVisible=false
                             // Sign in success, update UI with the signed-in user's information
                             Log.d(TAG, "signInWithEmail:success")
                             val user = auth.currentUser
                             updateUI(user)
                         } else {
+                            progress_signin.isVisible=false;
                             // If sign in fails, display a message to the user.
                             Log.w(TAG, "signInWithEmail:failure", task.exception)
+                            //this toast is showing when we login with google
                             Toast.makeText(
-                                baseContext, "Authentication failed.",
+                                baseContext, "Authentication failed.mail",
                                 Toast.LENGTH_SHORT
                             ).show()
-                            updateUI(null)
+                           // updateUI(null)
                         }
                     }
             }
         }
 
         google.setOnClickListener {
+            //progress bar visible
+            progress_signin.isVisible=true
             val gso = GoogleSignInOptions
                 .Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken(default_web_client_id)
@@ -79,7 +91,6 @@ class Login : AppCompatActivity() {
                 .build()
 
             googleSignInClient = GoogleSignIn.getClient(this, gso)
-
             signIn()
         }
     }
@@ -92,6 +103,11 @@ class Login : AppCompatActivity() {
             //reload();
             startActivity(Intent(this, MainActivity::class.java))
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        progress_signin.isVisible=false
     }
 
     private fun signIn() {
@@ -116,6 +132,7 @@ class Login : AppCompatActivity() {
                 Log.d(ContentValues.TAG, "firebaseAuthWithGoogle:" + account.id)
                 firebaseAuthWithGoogle(account.idToken!!)
             } catch (e: ApiException) {
+                progress_signin.isVisible=false;
                 // Google Sign In failed, update UI appropriately
                 Log.w(ContentValues.TAG, "Google sign in failed", e)
             }
@@ -130,11 +147,18 @@ class Login : AppCompatActivity() {
                     // Sign in success, update UI with the signed-in user's information
                     Log.d(ContentValues.TAG, "signInWithCredential:success")
                     val user = auth.currentUser
+                    //at this point we will save user details in database
+                    val userDetail=UserDetails(user?.displayName.toString(),user?.email.toString(),"")
+                    //saving data of user in real time database
+                    database.reference.child("Users").child(user!!.uid).setValue(userDetail).addOnSuccessListener {
+
+                    }
                     updateUI(user)
                 } else {
+                    progress_signin.isVisible=false;
                     // If sign in fails, display a message to the user.
                     Log.w(ContentValues.TAG, "signInWithCredential:failure", task.exception)
-                    //updateUI(null)
+                    updateUI(null)
                 }
             }
     }
