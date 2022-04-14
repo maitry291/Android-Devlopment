@@ -36,8 +36,8 @@ class Login : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
         auth= FirebaseAuth.getInstance()
-        val emailid=findViewById<EditText>(R.id.email)
-        val passwd=findViewById<EditText>(R.id.password)
+        val emailid=findViewById<EditText>(R.id.email_id)
+        val passwd=findViewById<EditText>(R.id.password_login)
 
 
         signUp.setOnClickListener {
@@ -45,15 +45,16 @@ class Login : AppCompatActivity() {
         }
 
         signIn.setOnClickListener {
-            val email=email.text.toString()
-            val password= password.text.toString()
+            val email=emailid.text.toString()
+            val password= passwd.text.toString()
             if(email.isEmpty()){
                 emailid.setError("Please enter email ID")
-                return@setOnClickListener
+                emailid.requestFocus()
             }
             if(password.isEmpty()){
                 passwd.setError("Please enter password")
-                return@setOnClickListener
+                passwd.requestFocus()
+
             }
             else {
                 //progress bar visible
