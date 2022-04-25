@@ -11,4 +11,5 @@
     <color name="whitebg">#f1f6f5</color>
     <color name="light">#8c95a4</color>
     <color name="dark">#798699</color>
+    <color name="hint_color">#8A8A8A</color>
 </resources>

@@ -4,14 +4,20 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/AndroidProjects/Project/app/src/main/res/drawable/back.xml" value="0.2" />
+        <entry key="..\:/AndroidProjects/Project/app/src/main/res/drawable/bdate_edt_bg.xml" value="0.1965" />
         <entry key="..\:/AndroidProjects/Project/app/src/main/res/drawable/box.xml" value="0.152" />
         <entry key="..\:/AndroidProjects/Project/app/src/main/res/drawable/buttonbg.xml" value="0.1735" />
+        <entry key="..\:/AndroidProjects/Project/app/src/main/res/drawable/scheme_bg.xml" value="0.1965" />
+        <entry key="..\:/AndroidProjects/Project/app/src/main/res/drawable/spinner_bg.xml" value="0.1965" />
+        <entry key="..\:/AndroidProjects/Project/app/src/main/res/drawable/splash_screen_bg.xml" value="0.1965" />
         <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout-v23/activity_login.xml" value="0.25677083333333334" />
+        <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout/activity_detailed_scheme.xml" value="0.25677083333333334" />
         <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout/activity_login.xml" value="0.264" />
         <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout/activity_main.xml" value="0.25677083333333334" />
+        <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout/activity_register.xml" value="0.25677083333333334" />
         <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
         <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout/login.xml" value="0.25677083333333334" />
-        <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout/signle_scheme.xml" value="0.25677083333333334" />
+        <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout/signle_scheme.xml" value="0.2" />
         <entry key="..\:/AndroidProjects/Project/app/src/main/res/layout/spinner_layout.xml" value="0.25677083333333334" />
       </map>
     </option>

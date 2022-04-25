@@ -6,7 +6,7 @@ import retrofit2.http.GET
 
 interface apiSet {
 
-    @GET("sqlconnection.php")
+    @GET("select.php")
     fun getData():Call<List<SchemesTable>>  //will return the list which contains all rows of table as obj
 
 }

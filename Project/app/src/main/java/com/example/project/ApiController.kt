@@ -11,32 +11,24 @@ class ApiController {
 
     companion object{
 
-        private const val url="http://10.53.141.154/govschemes/"
+        private const val url="https://well-coupled-fruits.000webhostapp.com/test/"
 
         val conn= OkHttpClient.Builder()
-            .connectTimeout(10, TimeUnit.SECONDS)
-            .readTimeout(10, TimeUnit.SECONDS)
-            .writeTimeout(10, TimeUnit.SECONDS).build()
+                  .build()
 
-        val gson=GsonBuilder().create()
+        val gson=GsonBuilder().setLenient().create()
+        var retrofit: Retrofit? =null
 
-        var clientObject: ApiController? =null
-
-        var retrofit: Retrofit =
-            Retrofit.Builder().baseUrl(url).client(conn).addConverterFactory(GsonConverterFactory.create(
-                gson)).build()
-
-        //step2
-        fun getInstance():ApiController{
-            if(clientObject==null)
-                return ApiController()
-            return clientObject as ApiController
+        fun getClient():Retrofit{
+            if(retrofit==null)
+            {
+                retrofit = Retrofit.Builder().baseUrl(url).client(conn).addConverterFactory(
+                    GsonConverterFactory.create(gson)
+                ).build()
+                return retrofit as Retrofit
+            }
+            return retrofit as Retrofit
         }
-
-        //step3
-       fun createAPI():apiSet{
-           return retrofit.create(apiSet::class.java)
-       }
 
     }
 

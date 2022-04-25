@@ -20,6 +20,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_sign_up.*
@@ -37,8 +38,10 @@ class SignUp : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_sign_up)
         // Initialize Firebase Auth
-        auth = Firebase.auth
-        database = FirebaseDatabase.getInstance()
+        auth = FirebaseAuth.getInstance()
+        database = Firebase.database
+
+
 
         //manual sign up with email and password
         signup.setOnClickListener {
@@ -48,57 +51,64 @@ class SignUp : AppCompatActivity() {
 
             if (email.isEmpty() || password.isEmpty() || name.isEmpty()) {
                 if (email.isEmpty()) {
-                    email_signup.setError("Please enter email ID")
+                    email_signup.error = "Please enter email ID"
                     email_signup.requestFocus()
-                    //return@setOnClickListener
+
                 }
                 if (password.isEmpty()) {
-                    password_signup.setError("Please enter password")
+                    password_signup.error = "Please enter password"
                     password_signup.requestFocus()
-                    //return@setOnClickListener
                 }
                 if (name.isEmpty()) {
-                    person.setError("Please enter name")
+                    person.error = "Please enter name"
                     person.requestFocus()
                 }
-                return@setOnClickListener
+               // return@setOnClickListener
             }
-            //progress bar visible
-            progress_signup.isVisible = true
-            auth.createUserWithEmailAndPassword(email, password)
-                .addOnCompleteListener(this) { task ->
-                    if (task.isSuccessful) {
-                        //progress bar invisible
-                        progress_signup.isVisible = false
+            else {
+                //progress bar visible
+                progress_signup.isVisible = true
+                auth.createUserWithEmailAndPassword(email, password)
+                    .addOnCompleteListener(this) { task ->
+                        if (task.isSuccessful) {
+                            //progress bar invisible
+                            progress_signup.isVisible = false
 
-                        // Sign in success, update UI with the signed-in user's information
-                        Log.d(TAG, "createUserWithEmail:success")
+                            // Sign in success, update UI with the signed-in user's information
+                            Log.d(TAG, "createUserWithEmail:success")
 
-                        val user = auth.currentUser
-                        Toast.makeText(this,"user"+ user!!.uid, Toast.LENGTH_SHORT).show()
-                        //at this point we will save user details in database
-                        //saving data of user in real time database
-                        //not uploading..........
+                            val user = auth.currentUser
+                            Toast.makeText(this, "user" + user!!.uid, Toast.LENGTH_SHORT).show()
+                            //at this point we will save user details in database
+                            //saving data of user in real time database
+                            //not uploading..........
 
-                        val userDetail = UserDetails(name,email,password)
-                        //saving data of user in real time database
-                        database.reference.child("Users").child(user.uid).setValue(userDetail)
-                            .addOnSuccessListener {
+                            val userDetail = UserDetails()
+                            userDetail.email = email
+                            userDetail.name = name
+                            userDetail.password = password
+                            userDetail.uid=user.uid
 
-                            }
+                            //saving data of user in real time database
+                            database.getReference("Users").child(auth.uid.toString())
+                                .setValue(userDetail)
+                                .addOnSuccessListener {
 
-                        updateUI(user)
-                    } else {
-                        progress_signup.isVisible = false;
-                        // If sign in fails, display a message to the user.
-                        Log.w(TAG, "createUserWithEmail:failure", task.exception)
-                        Toast.makeText(
-                            baseContext, task.exception.toString(),
-                            Toast.LENGTH_SHORT
-                        ).show()
+                                }
 
+                            updateUI(user)
+                        } else {
+                            progress_signup.isVisible = false
+                            // If sign in fails, display a message to the user.
+                            Log.w(TAG, "createUserWithEmail:failure", task.exception)
+                            Toast.makeText(
+                                baseContext, task.exception.toString(),
+                                Toast.LENGTH_SHORT
+                            ).show()
+
+                        }
                     }
-                }
+            }
         }
 
         google_signup.setOnClickListener {
@@ -154,7 +164,7 @@ class SignUp : AppCompatActivity() {
                 Log.d(TAG, "firebaseAuthWithGoogle:" + account.id)
                 firebaseAuthWithGoogle(account.idToken!!)
             } catch (e: ApiException) {
-                progress_signup.isVisible = false;
+                progress_signup.isVisible = false
                 // Google Sign In failed, update UI appropriately
                 Log.w(TAG, "Google sign in failed", e)
             }
@@ -171,15 +181,15 @@ class SignUp : AppCompatActivity() {
                     val user = auth.currentUser
                     //at this point we will save user details in database
                     val userDetail =
-                        UserDetails(user?.displayName.toString(), user?.email.toString(), "")
+                        UserDetails(user?.displayName.toString(), user?.email.toString(), "",user!!.uid)
                     //saving data of user in real time database
-                    database.reference.child("Users").child(user!!.uid).setValue(userDetail)
+                    database.getReference("Users").child(user.uid).setValue(userDetail)
                         .addOnSuccessListener {
 
                         }
                     updateUI(user)
                 } else {
-                    progress_signup.isVisible = false;
+                    progress_signup.isVisible = false
                     // If sign in fails, display a message to the user.
                     Log.w(TAG, "signInWithCredential:failure", task.exception)
                     //updateUI(null)

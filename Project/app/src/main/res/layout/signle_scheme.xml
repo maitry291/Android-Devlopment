@@ -1,57 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
-    <androidx.cardview.widget.CardView
-        app:cardCornerRadius="5dp"
-        android:layout_margin="5dp"
-        android:padding="10dp"
-        android:minHeight="180dp"
-
+    <RelativeLayout
+        android:layout_margin="4dp"
+        android:padding="5dp"
+        android:background="@drawable/scheme_bg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="10dp"
+            android:id="@+id/schlogo"
+            android:src="@drawable/group"
+            android:layout_width="20dp"
+            android:layout_height="20dp"/>
 
+        <TextView
+            android:id="@+id/schemeName"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/schlogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/cambo"
+            android:text="name"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
 
-            <TextView
-                android:id="@+id/schemeName"
-                android:textSize="25dp"
-                android:layout_margin="5dp"
-                android:textColor="@color/black"
-                android:textAlignment="center"
-                android:textStyle="bold"
-                android:padding="3dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="name" />
+        <TextView
+            android:id="@+id/schemeDept"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/schemeName"
+            android:text="dept"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
 
-            <TextView
-                android:id="@+id/schemeType"
-                android:layout_margin="7dp"
-                android:textSize="18sp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="type" />
+    </RelativeLayout>
 
-            <TextView
-                android:id="@+id/schemeDetails"
-                android:layout_margin="5dp"
-                android:padding="2dp"
-                android:scrollbarAlwaysDrawVerticalTrack="true"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="breif info" />
-
-
-        </LinearLayout>
-
-    </androidx.cardview.widget.CardView>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

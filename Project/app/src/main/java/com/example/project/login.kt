@@ -149,9 +149,9 @@ class Login : AppCompatActivity() {
                     Log.d(ContentValues.TAG, "signInWithCredential:success")
                     val user = auth.currentUser
                     //at this point we will save user details in database
-                    val userDetail=UserDetails(user?.displayName.toString(),user?.email.toString(),"")
+                    val userDetail=UserDetails(user?.displayName.toString(),user?.email.toString(),"",user!!.uid)
                     //saving data of user in real time database
-                    database.reference.child("Users").child(user!!.uid).setValue(userDetail).addOnSuccessListener {
+                    database.getReference("Users").child(user.uid).setValue(userDetail).addOnSuccessListener {
 
                     }
                     updateUI(user)
