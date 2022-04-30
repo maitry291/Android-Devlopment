@@ -8,17 +8,19 @@
     tools:context=".DetailedScheme">
 
     <RelativeLayout
+        android:id="@+id/r"
         android:background="@drawable/box"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="200dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <TextView
             android:id="@+id/schname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:padding="5dp"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:layout_marginEnd="15dp"
             android:layout_marginBottom="15dp"
             android:fontFamily="@font/cambo"
@@ -52,7 +54,7 @@
             android:textSize="16sp"
             android:textStyle="bold" />
 
-        <TextView
+        <!--<TextView
             android:id="@+id/schel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -63,15 +65,15 @@
             android:text="Eligibility:- "
             android:textColor="@color/black"
             android:textSize="15sp"
-            android:textStyle="bold" />
+            android:textStyle="bold" />-->
 
         <TextView
             android:id="@+id/gender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/schel"
+            android:layout_below="@id/schtype"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="25dp"
             android:text="Gender :"
             android:textColor="@color/black"
             android:textSize="15sp"
@@ -81,9 +83,9 @@
             android:id="@+id/schgender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/schel"
+            android:layout_below="@id/schtype"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="25dp"
             android:layout_toEndOf="@id/gender"
             android:text="Male,Female"
             android:textColor="@color/black"
@@ -191,7 +193,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/caste"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:text="information of scheme"
@@ -202,14 +204,49 @@
             android:id="@+id/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
+            android:layout_below="@id/schinfo"
             android:layout_centerHorizontal="true"
-            android:padding="3dp"
-            android:layout_margin="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="15dp"
             android:background="@drawable/buttonbg"
+            android:padding="5dp"
             android:text="Register" />
 
     </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/r"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/feedback" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="Feedback"
+            android:textColor="#0404F8"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </LinearLayout>
 
 
 </RelativeLayout>

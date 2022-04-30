@@ -6,41 +6,51 @@
     android:orientation="vertical">
 
     <RelativeLayout
-        android:layout_margin="4dp"
-        android:padding="5dp"
-        android:background="@drawable/scheme_bg"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@drawable/scheme_bg"
+        android:padding="10dp">
 
         <ImageView
-            android:layout_margin="10dp"
             android:id="@+id/schlogo"
-            android:src="@drawable/group"
             android:layout_width="20dp"
-            android:layout_height="20dp"/>
+            android:layout_height="20dp"
+            android:layout_marginStart="5dp"
+            android:src="@drawable/group" />
 
         <TextView
             android:id="@+id/schemeName"
-            android:textStyle="bold"
-            android:layout_toEndOf="@id/schlogo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp"
-            android:fontFamily="@font/cambo"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@id/schlogo"
             android:text="name"
             android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/schemeDept"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
             android:layout_below="@id/schemeName"
+            android:layout_alignStart="@id/schemeName"
+            android:layout_marginTop="10dp"
             android:text="dept"
             android:textColor="@color/black"
             android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/schemeType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/schemeDept"
+            android:layout_alignStart="@id/schemeName"
+            android:layout_marginTop="7dp"
+            android:text="Type : "
+            android:textColor="@color/black"
+            android:textSize="14sp" />
 
     </RelativeLayout>
 

@@ -18,12 +18,16 @@ class DetailedScheme : AppCompatActivity() {
         schcaste.text=intent.getStringExtra("caste")
         schgender.text=intent.getStringExtra("gender")
         schage.append(intent.getIntExtra("slage",0).toString()+"-"+intent.getIntExtra("suage",0)+" years")
-        schincome.append("0-"+intent.getStringExtra("income"))
+        schincome.append("Less than or equal to "+intent.getIntExtra("income",0))
         schdisability.text=intent.getStringExtra("disability")
         schinfo.text=intent.getStringExtra("sinfo")
 
         register.setOnClickListener {
             startActivity(Intent(this,Register::class.java))
+        }
+
+        feedback.setOnClickListener {
+            //open pop up fragment to write review and store that review in database
         }
     }
 }

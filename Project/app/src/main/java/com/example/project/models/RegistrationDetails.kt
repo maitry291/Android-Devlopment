@@ -1,6 +1,6 @@
 package com.example.project.models
 
-class UserDetails() {
+class RegistrationDetails() {
     lateinit var name:String
     lateinit var email:String
     lateinit var password:String

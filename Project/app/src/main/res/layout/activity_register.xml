@@ -7,16 +7,19 @@
     tools:context=".Register">
 
     <TextView
-        android:text="Register for Scheme"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:fontFamily="@font/akaya_telivigala"
-        android:gravity="center"
-        android:layout_margin="10dp"
-        android:textSize="30sp"
         android:id="@+id/heading"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/akaya_telivigala"
+        android:gravity="center"
+        android:text="Register for Scheme"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <View
         android:id="@+id/view"
@@ -107,6 +110,7 @@
         android:layout_marginEnd="20dp"
         android:background="@drawable/spinner_bg"
         android:minHeight="45dp"
+        android:textColor="@color/hint_color"
         android:popupBackground="@drawable/spinner_bg"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -209,7 +213,6 @@
 
     <EditText
         android:id="@+id/edt_bio"
-        android:textSize="15sp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/textview15"
@@ -224,6 +227,7 @@
         android:minHeight="45dp"
         android:paddingStart="8dp"
         android:textColorHint="@color/hint_color"
+        android:textSize="15sp"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
@@ -248,12 +252,12 @@
         android:autofillHints="emailAddress"
         android:background="@drawable/box"
         android:ems="10"
-        android:textSize="15sp"
         android:hint="Add your email"
         android:inputType="textEmailAddress"
         android:minHeight="45dp"
         android:paddingStart="8dp"
         android:textColorHint="@color/hint_color"
+        android:textSize="15sp"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
@@ -278,12 +282,12 @@
         android:autofillHints="phone"
         android:background="@drawable/box"
         android:ems="10"
-        android:textSize="15sp"
         android:hint="Add your phone"
         android:inputType="phone"
         android:minHeight="45dp"
         android:paddingStart="8dp"
         android:textColorHint="@color/hint_color"
+        android:textSize="15sp"
         tools:ignore="TouchTargetSizeCheck" />
 
     <androidx.appcompat.widget.AppCompatButton
@@ -291,9 +295,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/edt_phone"
-        android:layout_margin="40dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="40dp"
         android:background="@drawable/buttonbg"
         android:text="Register"
         android:textAllCaps="false"

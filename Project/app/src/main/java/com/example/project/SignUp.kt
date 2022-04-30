@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
 import androidx.core.view.isVisible
-import com.example.project.models.UserDetails
+import com.example.project.models.RegistrationDetails
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
@@ -15,14 +15,9 @@ import com.google.android.gms.common.api.ApiException
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
-import com.google.firebase.auth.ktx.auth
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
-import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
-import kotlinx.android.synthetic.main.activity_login.*
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
 class SignUp : AppCompatActivity() {
@@ -83,7 +78,7 @@ class SignUp : AppCompatActivity() {
                             //saving data of user in real time database
                             //not uploading..........
 
-                            val userDetail = UserDetails()
+                            val userDetail = RegistrationDetails()
                             userDetail.email = email
                             userDetail.name = name
                             userDetail.password = password
@@ -181,7 +176,7 @@ class SignUp : AppCompatActivity() {
                     val user = auth.currentUser
                     //at this point we will save user details in database
                     val userDetail =
-                        UserDetails(user?.displayName.toString(), user?.email.toString(), "",user!!.uid)
+                        RegistrationDetails(user?.displayName.toString(), user?.email.toString(), "",user!!.uid)
                     //saving data of user in real time database
                     database.getReference("Users").child(user.uid).setValue(userDetail)
                         .addOnSuccessListener {

@@ -1,7 +1,7 @@
 package com.example.project.models
 
 class SchemesTable(){
-
+    //var ans:ArrayList<SchemesTable> = ArrayList()
     var dept_ID:String=""
     var Department:String=""
     var scheme_id:Int=0
@@ -9,7 +9,7 @@ class SchemesTable(){
     var scheme_type:String=""
     var scheme_info:String=""
     var gender:String=""
-    var income:String=""
+    var income:Int=0
     var disabilities:String=""
     var caste:String=""
     var lower_age:Int=0
@@ -17,7 +17,7 @@ class SchemesTable(){
 
 
     //, lower_income:Int, higher_income:Int, disability:String,
-   /* constructor( dept_id:Int,Department:String, scheme_id:Int,scheme_name:String,scheme_type:String,scheme_info:String,
+    constructor( dept_id:String,Department:String, scheme_id:Int,scheme_name:String,scheme_type:String,scheme_info:String,
                  gender:String, income:Int,disabilities:String, caste:String,lower_age:Int, upper_age:Int)
     :this(){
         this.dept_ID=dept_id
@@ -32,6 +32,6 @@ class SchemesTable(){
         this.lower_age=lower_age
         this.upper_age=upper_age
         this.caste=caste
-    }*/
+    }
 
 }

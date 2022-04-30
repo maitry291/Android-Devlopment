@@ -17,6 +17,7 @@ class SchemesAdapter(val list:ArrayList<SchemesTable>,val context:Context) :
     open class viewHolder(itemView : View): RecyclerView.ViewHolder(itemView){
         var sname:TextView=itemView.findViewById(R.id.schemeName)
         var sdept:TextView=itemView.findViewById(R.id.schemeDept)
+        var stype:TextView=itemView.findViewById(R.id.schemeType)
 
     }
 
@@ -30,6 +31,7 @@ class SchemesAdapter(val list:ArrayList<SchemesTable>,val context:Context) :
 
         holder.sname.text= scheme.scheme_name
         holder.sdept.text=scheme.Department
+        holder.stype.append(scheme.scheme_type)
 
         holder.itemView.setOnClickListener {
             val i=Intent(context,DetailedScheme::class.java)
