@@ -73,7 +73,7 @@ class SignUp : AppCompatActivity() {
                             Log.d(TAG, "createUserWithEmail:success")
 
                             val user = auth.currentUser
-                            Toast.makeText(this, "user" + user!!.uid, Toast.LENGTH_SHORT).show()
+                            //Toast.makeText(this, "user" + user!!.uid, Toast.LENGTH_SHORT).show()
                             //at this point we will save user details in database
                             //saving data of user in real time database
                             //not uploading..........
@@ -82,7 +82,7 @@ class SignUp : AppCompatActivity() {
                             userDetail.email = email
                             userDetail.name = name
                             userDetail.password = password
-                            userDetail.uid=user.uid
+                            userDetail.uid=user!!.uid
 
                             //saving data of user in real time database
                             database.getReference("Users").child(auth.uid.toString())
@@ -138,6 +138,7 @@ class SignUp : AppCompatActivity() {
 
     private fun signIn() {
         val signInIntent = googleSignInClient.signInIntent
+        //startActivity(Intent(this, MainActivity::class.java))
         startActivityForResult(signInIntent, RC_SIGN_IN)
     }
 

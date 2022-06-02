@@ -8,8 +8,9 @@ class Registration() {
      var email:String=""
      var bio:String=""
      var phone:String=""
+    var scheme:String=""
 
-    constructor(fname:String,lname:String,gender:String,bdate:String,email:String,bio:String,phone:String):this(){
+    constructor(fname:String,lname:String,gender:String,bdate:String,email:String,bio:String,phone:String,scheme:String):this(){
         this.fname=fname
         this.lname=lname
         this.gender=gender
@@ -17,5 +18,6 @@ class Registration() {
         this.email=email
         this.bio=bio
         this.phone=phone
+        this.scheme=scheme
     }
 }

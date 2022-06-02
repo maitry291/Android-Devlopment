@@ -14,7 +14,6 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
-        android:fontFamily="@font/akaya_telivigala"
         android:gravity="center"
         android:text="Register for Scheme"
         android:textColor="@color/black"
@@ -25,7 +24,7 @@
         android:id="@+id/view"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerInParent="true" />
 
     <TextView
         android:layout_below="@+id/heading"
@@ -53,9 +52,8 @@
         android:inputType="textPersonName"
         android:minHeight="45dp"
         android:paddingStart="8dp"
-        android:textSize="15sp"
-        android:textColor="@color/white"
         android:textColorHint="@color/hint_color"
+        android:textSize="15sp"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
@@ -78,7 +76,6 @@
         android:layout_marginStart="10dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="20dp"
-        android:textSize="15sp"
         android:background="@drawable/box"
         android:gravity="center_vertical"
         android:hint="Last Name"
@@ -87,6 +84,7 @@
         android:minEms="8"
         android:paddingStart="8dp"
         android:textColorHint="@color/hint_color"
+        android:textSize="15sp"
         tools:ignore="TouchTargetSizeCheck" />
 
     <TextView
@@ -110,7 +108,6 @@
         android:layout_marginEnd="20dp"
         android:background="@drawable/spinner_bg"
         android:minHeight="45dp"
-        android:textColor="@color/hint_color"
         android:popupBackground="@drawable/spinner_bg"
         tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
@@ -134,7 +131,7 @@
         android:layout_marginTop="5dp"
         android:orientation="horizontal">
 
-        <TextView
+        <EditText
             android:id="@+id/birthdate_date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -144,10 +141,10 @@
             android:minWidth="45dp"
             android:minHeight="45dp"
             android:minEms="2"
-            android:textColor="@color/white"
+            android:textColor="@color/hint_color"
             android:textColorHint="@color/hint_color" />
 
-        <TextView
+        <EditText
             android:id="@+id/birthdate_month"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -158,10 +155,10 @@
             android:minWidth="45dp"
             android:minHeight="45dp"
             android:minEms="2"
-            android:textColor="@color/white"
+            android:textColor="@color/hint_color"
             android:textColorHint="@color/hint_color" />
 
-        <TextView
+        <EditText
             android:id="@+id/birthdate_year"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -172,7 +169,7 @@
             android:minWidth="45dp"
             android:minHeight="45dp"
             android:minEms="2"
-            android:textColor="@color/white"
+            android:textColor="@color/hint_color"
             android:textColorHint="@color/hint_color" />
     </LinearLayout>
 

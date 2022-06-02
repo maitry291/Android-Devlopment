@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import android.view.View
 import android.widget.Spinner
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
@@ -14,8 +15,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.project.adapters.Adapter
 import com.example.project.adapters.SchemesAdapter
+import com.example.project.models.RegistrationDetails
 import com.example.project.models.SchemesTable
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.database.DataSnapshot
+import com.google.firebase.database.DatabaseError
+import com.google.firebase.database.ValueEventListener
 import com.google.firebase.database.ktx.database
 import com.google.firebase.ktx.Firebase
 import kotlinx.android.synthetic.main.activity_main.*
@@ -34,6 +39,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+
 
         val toolbar = findViewById<Toolbar>(R.id.toolbar)
         val category=findViewById<Spinner>(R.id.spinner_category)
@@ -72,22 +79,6 @@ class MainActivity : AppCompatActivity() {
         val adapter6 = Adapter(list6, this)
         findViewById<Spinner>(R.id.spinner_caste).adapter = adapter6
 
-        // get name from firebase
-        /*db.getReference("Users").child(FirebaseAuth.getInstance().uid.toString()).addListenerForSingleValueEvent(object :ValueEventListener{
-            override fun onDataChange(snapshot: DataSnapshot) {
-                //for(snap in snapshot.children){
-                    val model=snapshot.getValue(UserDetails::class.java)
-                    //if(FirebaseAuth.getInstance().currentUser!!.uid.toString()==snap.key){
-                        toolbar.title = "Hello, " + model!!.name + "😁"
-                   // }
-                //}
-            }
-
-            override fun onCancelled(error: DatabaseError) {
-                TODO("Not yet implemented")
-            }
-
-        })*/
 
         //toolbar.title="Hello,"+FirebaseAuth.getInstance().currentUser?.uid+"👋"
         setSupportActionBar(toolbar as Toolbar)
@@ -180,7 +171,6 @@ class MainActivity : AppCompatActivity() {
                     val ans=ArrayList<SchemesTable>()
 
                     for(i in data!!){
-
                         //from database
                         val dept=i.Department
                         val gender=i.gender
@@ -234,6 +224,23 @@ class MainActivity : AppCompatActivity() {
     // Inflating menu to Toolbar
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.toolbar_menu, menu)
+
+        // get name from firebase
+        db.getReference("Users").child(FirebaseAuth.getInstance().
+        uid.toString()).addListenerForSingleValueEvent(object : ValueEventListener {
+            override fun onDataChange(snapshot: DataSnapshot) {
+                val model=snapshot.getValue(RegistrationDetails::class.java)
+                if(model!!.email=="maitrymakwana196@gmail.com"){
+                    menu!!.findItem(R.id.i3).isVisible=true
+                }
+
+            }
+
+            override fun onCancelled(error: DatabaseError) {
+                TODO("Not yet implemented")
+            }
+
+        })
         return true
     }
 
@@ -251,6 +258,10 @@ class MainActivity : AppCompatActivity() {
                     androidx.appcompat.R.anim.abc_fade_out
                 )
             }
+            R.id.i3->{
+                startActivity(Intent(this,Accessdatabase::class.java))
+            }
+
         }
         return true
     }

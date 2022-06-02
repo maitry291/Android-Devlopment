@@ -68,7 +68,7 @@
             android:textStyle="bold" />-->
 
         <TextView
-            android:id="@+id/gender"
+            android:id="@+id/dgender"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/schtype"
@@ -86,7 +86,7 @@
             android:layout_below="@id/schtype"
             android:layout_marginStart="10dp"
             android:layout_marginTop="25dp"
-            android:layout_toEndOf="@id/gender"
+            android:layout_toEndOf="@id/dgender"
             android:text="Male,Female"
             android:textColor="@color/black"
             android:textSize="15sp" />
@@ -95,7 +95,7 @@
             android:id="@+id/age"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/gender"
+            android:layout_below="@id/dgender"
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
             android:text="Age :"
@@ -107,7 +107,7 @@
             android:id="@+id/schage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/gender"
+            android:layout_below="@id/dgender"
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
             android:layout_toEndOf="@id/age"
@@ -116,7 +116,7 @@
             android:textSize="15sp" />
 
         <TextView
-            android:id="@+id/income"
+            android:id="@+id/dincome"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/age"
@@ -134,7 +134,7 @@
             android:layout_below="@id/age"
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
-            android:layout_toEndOf="@id/income"
+            android:layout_toEndOf="@id/dincome"
             android:text=""
             android:textColor="@color/black"
             android:textSize="15sp" />
@@ -143,7 +143,7 @@
             android:id="@+id/disability"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/income"
+            android:layout_below="@id/dincome"
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
             android:text="Disability :"
@@ -155,7 +155,7 @@
             android:id="@+id/schdisability"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/income"
+            android:layout_below="@id/dincome"
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
             android:layout_toEndOf="@id/disability"
@@ -164,7 +164,7 @@
             android:textSize="15sp" />
 
         <TextView
-            android:id="@+id/caste"
+            android:id="@+id/dcaste"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/disability"
@@ -182,7 +182,7 @@
             android:layout_below="@id/disability"
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"
-            android:layout_toEndOf="@id/caste"
+            android:layout_toEndOf="@id/dcaste"
             android:text="SC"
             android:textColor="@color/black"
             android:textSize="15sp" />
@@ -191,7 +191,7 @@
             android:id="@+id/schinfo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/caste"
+            android:layout_below="@id/dcaste"
             android:layout_marginStart="10dp"
             android:layout_marginTop="15dp"
             android:layout_marginEnd="10dp"
