@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bridge2"
+    android:background="@drawable/chatbar_bg"
     android:orientation="vertical"
     tools:context=".LoginScreen">
 
@@ -67,6 +67,7 @@
                 android:background="@drawable/bg"
                 android:ems="10"
                 android:hint="Enter your name"
+                android:textColorHint="@color/black"
                 android:inputType="text"
                 android:padding="15dp"
                 android:textColor="@color/black" />
@@ -81,6 +82,7 @@
                 android:ems="10"
                 android:hint="+91 1234567890"
                 android:inputType="text"
+                android:textColorHint="@color/black"
                 android:padding="15dp"
                 android:textColor="@color/black" />
 

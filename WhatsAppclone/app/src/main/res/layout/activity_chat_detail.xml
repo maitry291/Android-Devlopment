@@ -74,12 +74,12 @@
     </androidx.appcompat.widget.Toolbar>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:layout_below="@id/toolbar2"
         android:id="@+id/chats"
-        android:background="@drawable/bridge2"
-        android:layout_above="@id/typemsg"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:layout_above="@id/typemsg"
+        android:layout_below="@id/toolbar2"
+        android:background="@drawable/chatbg">
 
     </androidx.recyclerview.widget.RecyclerView>
 
