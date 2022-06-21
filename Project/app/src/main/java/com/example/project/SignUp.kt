@@ -36,7 +36,9 @@ class SignUp : AppCompatActivity() {
         auth = FirebaseAuth.getInstance()
         database = Firebase.database
 
-
+        logIn.setOnClickListener {
+            startActivity(Intent(this,Login::class.java))
+        }
 
         //manual sign up with email and password
         signup.setOnClickListener {
@@ -106,7 +108,7 @@ class SignUp : AppCompatActivity() {
             }
         }
 
-        google_signup.setOnClickListener {
+        /*google_signup.setOnClickListener {
             //progress bar visible
             progress_signup.isVisible = true
             val gso = GoogleSignInOptions
@@ -118,7 +120,7 @@ class SignUp : AppCompatActivity() {
             googleSignInClient = GoogleSignIn.getClient(this, gso)
             signIn()
 
-        }
+        }*/
     }
 
     override fun onBackPressed() {

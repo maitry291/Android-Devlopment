@@ -81,7 +81,7 @@ class Login : AppCompatActivity() {
             }
         }
 
-        google.setOnClickListener {
+        /*google.setOnClickListener {
             //progress bar visible
             progress_signin.isVisible=true
             val gso = GoogleSignInOptions
@@ -92,7 +92,7 @@ class Login : AppCompatActivity() {
 
             googleSignInClient = GoogleSignIn.getClient(this, gso)
             signIn()
-        }
+        }*/
     }
 
     public override fun onStart() {

@@ -191,7 +191,7 @@
             android:padding="5dp"
             android:visibility="gone" />
 
-        <TextView
+        <!--<TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -235,11 +235,11 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
         </LinearLayout>
-
+-->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/google"
+            android:layout_below="@id/relative"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
